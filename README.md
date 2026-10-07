@@ -205,7 +205,3 @@ These results confirm the correct functionality of both the processor architectu
 - Label Resolution
 - Computer Architecture
 - Functional Verification
-
-## Documentation
-
-A detailed project report is available in `Report.pdf`.
