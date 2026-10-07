@@ -1,10 +1,10 @@
 # 6-bit Processor with Assembler
 
-A custom 6-bit processor implemented in VHDL featuring an FSM-based control unit, instruction set extension for hardware multiplication, and a Python assembler with automatic label resolution.
+A custom 6-bit processor implemented in VHDL, featuring an FSM-based control unit, an extended instruction set with hardware multiplication support, and a Python assembler with automatic label resolution.
 
 ## Overview
 
-This project presents the design and implementation of a custom 6-bit processor in VHDL, developed to explore fundamental concepts of digital design and computer architecture.
+This project presents the design and implementation of a custom 6-bit processor in VHDL, developed to explore and implement fundamental concepts of digital design and computer architecture.
 
 The processor includes a datapath composed of registers, an ALU, program counter, instruction register, memory, multiplexers, and an FSM-based control unit. In addition to the processor implementation, a custom Python assembler was developed to automatically translate assembly programs into executable machine code.
 
@@ -52,12 +52,10 @@ The ALU receives its operands through multiplexers and performs arithmetic opera
 
 ### Registers
 
-| Register |
-|----------|
-| R0 |
-| R1 |
-| R2 |
-| R3 |
+- R0
+- R1
+- R2
+- R3
 
 ---
 
@@ -105,26 +103,26 @@ This demonstrates how functionality can be added through software without modify
 
 The processor was extended with a dedicated multiplication instruction.
 
-### ISA Modifications
+#### ISA Modifications
 
 - Opcode width increased from 2 bits to 3 bits
 - New multiplication opcode: `100`
 - Existing instructions preserved through opcode expansion
 - Instruction width increased from 6 bits to 7 bits
 
-### ALU Modifications
+#### ALU Modifications
 
 - ALU control signal expanded from 1 bit to 2 bits
 - Added multiplication operation
 - Increased ALU result width to support multiplication results
 
-### Control Unit Modifications
+#### Control Unit Modifications
 
 - Added a dedicated FSM state for multiplication
 - Updated instruction decoding logic
 - Integrated multiplication execution into the control flow
 
-### Verification
+#### Verification
 
 Example:
 
@@ -208,22 +206,6 @@ These results confirm the correct functionality of both the processor architectu
 - Computer Architecture
 - Functional Verification
 
----
+## Documentation
 
-## Repository Structure
-
-```text
-6bit-processor-with-assembler/
-│
-├── src/
-│
-├── assembler/
-│   └── assembler.py
-│
-├── assembly/
-│
-├── simulation/
-│
-└── report/
-    └── report.pdf
-```
+A detailed project report is available in `Report.pdf`.
