@@ -1,0 +1,42 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=processor
+[Library]
+Processor=.\Processor\Processor.lib
+[$LibMap$]
+Processor=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Processor.vhd=-1
+/..\..\..\..\..\..\..\..\Myuniversity\Term8\CoDesign\Project\CoDesign_Project_Ostvar_Afrakhteh\Processor\Processor\src\untitled.asdb=-1
+/..\..\..\..\..\..\..\..\Myuniversity\Term8\CoDesign\Project\CoDesign_Project_Ostvar_Afrakhteh\Processor\Processor\src\untitled.awc=-1
+/Processor2.vhd=-1
+TestBench/processor_TB.vhd=-1
+TestBench/processor_TB_runtest.do=-1
+TestBench/processor2_TB.vhd=-1
+TestBench/processor2_TB_runtest.do=-1
+[Files.Data]
+.\src\Processor.vhd=VHDL Source Code
+.\..\..\..\..\..\..\..\Myuniversity\Term8\CoDesign\Project\CoDesign_Project_Ostvar_Afrakhteh\Processor\Processor\src\untitled.asdb=Accelerated Waveform File
+.\..\..\..\..\..\..\..\Myuniversity\Term8\CoDesign\Project\CoDesign_Project_Ostvar_Afrakhteh\Processor\Processor\src\untitled.awc=Accelerated Waveform Configuration
+.\src\Processor2.vhd=VHDL Source Code
+.\src\TestBench\processor_TB.vhd=VHDL Test Bench
+.\src\TestBench\processor_TB_runtest.do=Macro
+.\src\TestBench\processor2_TB.vhd=VHDL Test Bench
+.\src\TestBench\processor2_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=processor2_tb|testbench_for_processor2|1 processor_tb|testbench_for_processor|1
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1

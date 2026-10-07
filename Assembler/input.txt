@@ -1,0 +1,7 @@
+load r0, 6
+load r1, 8
+load r1, 1
+load r3, 0
+L0:add r3, r0
+sub r1, r2
+jnz r1, L0

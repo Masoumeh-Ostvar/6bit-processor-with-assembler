@@ -1,0 +1,4 @@
+i<>.\src\Processor.vhd
+i<>.\src\Processor2.vhd
+i<>.\src\TestBench\processor_TB.vhd
+i<>.\src\TestBench\processor2_TB.vhd
